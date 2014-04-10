@@ -52,7 +52,7 @@ public class MainActivity extends Activity
 	    layout = (LinearLayout) findViewById(R.id.mainlayout);
 		userIdTextView = new EditText(this);
 		layout.addView(userIdTextView);
-		userIdTextView.setText("5378315");
+		userIdTextView.setText("1");
 		printButton = new Button(this);
 		layout.addView(printButton);
 		printButton.setText("print");
